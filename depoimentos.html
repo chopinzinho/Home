@@ -1,16 +1,23 @@
+
+<div class="row contato-view"> 
+    <span class="dep-title">
+    <img src="./img/google-maps.png"  class="dep-img" ></img> 
+        Nossa avaliação no Google Maps!</span>
+    
+
 <div id="depoimentos" class="main-item" style="text-align: center;"> 
   
  <img src="./img/load.gif"  id="load"/>
   
-
+ 
 </div>
-
+</div>
 <script type="text/javascript">
     var loading = null; 
     var line = null;
 
     if(placeResult == null){
-        console.log('is null');
+        console.error('[placeResult]: null');
         loading = setTimeout(checkList, 5000);
     }else{
         placeResult.reviews.forEach(createReview);
