@@ -219,12 +219,12 @@ article{
     background-color: rgb(80, 80, 80);
 }
 .course-title {
-    display: flex;
-    margin: 0;
-    margin-top: 0;
-    /* font-size: small; */
-    padding: 0;
-    padding-left: 0;
+    display: inline;
+    margin: 5px; 
+    font-size: small;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 5px;
     width: 100%;
     background-color: #F3EB1F;
     color: #000;
