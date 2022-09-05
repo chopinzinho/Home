@@ -1,0 +1,97 @@
+
+<div class="row contato-view"> 
+    <span class="dep-title">
+    <img src="./img/google-maps.png"  class="dep-img" ></img> 
+        Nossa avaliação no Google Maps!</span>
+    
+
+<div id="depoimentos" class="main-item" style="text-align: center;"> 
+  
+ <img src="./img/load.gif"  id="load"/>
+  
+ 
+</div>
+</div>
+<script type="text/javascript">
+    var loading = null; 
+    var line = null;
+
+    if(placeResult == null){
+        console.error('[placeResult]: null');
+        loading = setTimeout(checkList, 5000);
+    }else{
+        placeResult.reviews.forEach(createReview);
+    }
+    
+    
+function checkList(){
+    clearTimeout(loading); 
+    if(placeResult == null){ 
+        loading = setTimeout(checkList, 5000);
+    }else{ 
+        placeResult.reviews.forEach(createReview);
+    }
+}  
+function createReview(item, pos) { 
+    if(pos % 3 == 0){
+        if(null != line){
+            document.getElementById("depoimentos").appendChild(line);
+        }
+        line = document.createElement("div");
+        line.setAttribute('class',"flex-container");
+
+    }
+    var view = document.createElement("div");
+    view.setAttribute('class', "ratting-view");
+    var row = document.createElement("div");
+    row.setAttribute('class',"row");
+    var linkBio = document.createElement("a");
+    linkBio.setAttribute('class',"no-style-link");
+    linkBio.setAttribute('href', item.author_url);
+    linkBio.setAttribute('target', '_blank');
+    var photo = document.createElement("img");
+    photo.setAttribute('class',"ratting-photo");
+    photo.setAttribute('src', item.profile_photo_url);
+    var name = document.createElement("span");
+    name.setAttribute('class',"ratting-name");
+    linkBio.appendChild(photo);
+    name.textContent = item.author_name;
+    linkBio.appendChild(name);
+    row.appendChild(linkBio);
+    view.append(row);
+
+    var rowR = document.createElement("div");
+    rowR.setAttribute('class', "row");
+    var ratImg = document.createElement("img");
+    ratImg.setAttribute('class', "ratting");
+    ratImg.setAttribute('src', './img/r-'+item.rating+'.png');
+    rowR.appendChild(ratImg);
+    
+    
+    var rowt = document.createElement("div");
+    rowt.setAttribute('class', "row");
+
+    var text = document.createElement("span");
+    text.setAttribute('class', "ratting-text");
+    text.textContent=item.text;
+    rowt.appendChild(text);
+
+    var rowdt = document.createElement("div");
+    rowdt.setAttribute('class', "row");
+    var date = document.createElement("span");
+    date.setAttribute('class', "ratting-date");
+    date.textContent=item.relative_time_description;
+    rowdt.appendChild(date);
+    
+    view.append(rowR);
+    view.append(rowt);
+    view.append(rowdt);
+    
+    line.appendChild(view);
+
+    if(placeResult.reviews.length == (pos+1)){
+        document.getElementById("depoimentos").appendChild(line);
+        document.getElementById("load").style.display='none';
+    }
+}
+</script>

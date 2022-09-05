@@ -1,0 +1,302 @@
+{
+    "html_attributions": [],
+    "result": {
+        "address_components": [
+            {
+                "long_name": "3853",
+                "short_name": "3853",
+                "types": [
+                    "street_number"
+                ]
+            },
+            {
+                "long_name": "Rua 14 de Dezembro",
+                "short_name": "R. 14 de Dezembro",
+                "types": [
+                    "route"
+                ]
+            },
+            {
+                "long_name": "Centro",
+                "short_name": "Centro",
+                "types": [
+                    "sublocality_level_1",
+                    "sublocality",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "Chopinzinho",
+                "short_name": "Chopinzinho",
+                "types": [
+                    "administrative_area_level_2",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "Paraná",
+                "short_name": "PR",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "Brasil",
+                "short_name": "BR",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "85560-000",
+                "short_name": "85560-000",
+                "types": [
+                    "postal_code"
+                ]
+            }
+        ],
+        "adr_address": "<span class=\"street-address\">R. 14 de Dezembro, 3853</span> - <span class=\"extended-address\">Centro</span>, <span class=\"locality\">Chopinzinho</span> - <span class=\"region\">PR</span>, <span class=\"postal-code\">85560-000</span>, <span class=\"country-name\">Brasil</span>",
+        "business_status": "OPERATIONAL",
+        "formatted_address": "R. 14 de Dezembro, 3853 - Centro, Chopinzinho - PR, 85560-000, Brasil",
+        "formatted_phone_number": "(46) 3242-1035",
+        "geometry": {
+            "location": {
+                "lat": -25.8549022,
+                "lng": -52.5269663
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": -25.8534601197085,
+                    "lng": -52.5256246197085
+                },
+                "southwest": {
+                    "lat": -25.85615808029151,
+                    "lng": -52.52832258029149
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/school-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/school_pinlet",
+        "international_phone_number": "+55 46 3242-1035",
+        "name": "CFC Chopinzinho",
+        "opening_hours": {
+            "open_now": false,
+            "periods": [
+                {
+                    "close": {
+                        "day": 1,
+                        "time": "1200"
+                    },
+                    "open": {
+                        "day": 1,
+                        "time": "0800"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 1,
+                        "time": "1800"
+                    },
+                    "open": {
+                        "day": 1,
+                        "time": "1300"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 2,
+                        "time": "1200"
+                    },
+                    "open": {
+                        "day": 2,
+                        "time": "0800"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 2,
+                        "time": "1800"
+                    },
+                    "open": {
+                        "day": 2,
+                        "time": "1300"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 3,
+                        "time": "1200"
+                    },
+                    "open": {
+                        "day": 3,
+                        "time": "0800"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 3,
+                        "time": "1800"
+                    },
+                    "open": {
+                        "day": 3,
+                        "time": "1300"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 4,
+                        "time": "1200"
+                    },
+                    "open": {
+                        "day": 4,
+                        "time": "0800"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 4,
+                        "time": "1800"
+                    },
+                    "open": {
+                        "day": 4,
+                        "time": "1300"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 5,
+                        "time": "1200"
+                    },
+                    "open": {
+                        "day": 5,
+                        "time": "0800"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 5,
+                        "time": "1800"
+                    },
+                    "open": {
+                        "day": 5,
+                        "time": "1300"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 6,
+                        "time": "1200"
+                    },
+                    "open": {
+                        "day": 6,
+                        "time": "0800"
+                    }
+                }
+            ],
+            "weekday_text": [
+                "segunda-feira: 08:00 – 12:00, 13:00 – 18:00",
+                "terça-feira: 08:00 – 12:00, 13:00 – 18:00",
+                "quarta-feira: 08:00 – 12:00, 13:00 – 18:00",
+                "quinta-feira: 08:00 – 12:00, 13:00 – 18:00",
+                "sexta-feira: 08:00 – 12:00, 13:00 – 18:00",
+                "sábado: 08:00 – 12:00",
+                "domingo: Fechado"
+            ]
+        },
+        "photos": [
+            {
+                "height": 967,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113971595617869561218\">CFC Chopinzinho</a>"
+                ],
+                "photo_reference": "AeJbb3diSf948I5XQTL-SmHdZexXx7Xwav_eI1o9-MPDQfHe2n5ktLTSgvCNQTxoSbfg_nLPBkjqTZHBN51Zqhe8mRU_hGLrO0n73g5LS9tR4jM5I_8Z2R2zn08kr7XpP3PmW7WUC8rWjhKspCNxnTw68AXuo2ndjziFy7Px3Z6uFYQvEal8",
+                "width": 720
+            },
+            {
+                "height": 363,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105881891066589330227\">Marcia De Lima Filimberti</a>"
+                ],
+                "photo_reference": "AeJbb3cQLjOszKLEJOdOS_99vwYpXfjQsQIoJ2-UBHM5J5xiZ789wdshzNHi7pQQEVt8GhFQENAje-gi-FOEXv45XIbk4cDreBIsop_UGoE-S0h1YW0RtU9ApXxbv1pd7i4EB0cgRd_Dl3lNV_iV_azOXogKB4ZyGpJokJUqnWihkRuZU4CS",
+                "width": 291
+            },
+            {
+                "height": 629,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113971595617869561218\">CFC Chopinzinho</a>"
+                ],
+                "photo_reference": "AeJbb3dLFzKXYYj42BqixfjSxjeRWbVLzBSNbt3mVZW4eTLYSAcL00zzHsyjMMoLkQuilp2lweWHF9A1qNd7CuTiegng8mREmLWXt-wxkBIKEO7pugsM-1w_UhT_r5Bs387OaMAYgWfCYgirOn0A_vf-gW3VphmqGd7WJ_ArzGHozftMWkLQ",
+                "width": 803
+            }
+        ],
+        "place_id": "ChIJof4Msojv75QRfEplq4dIq78",
+        "plus_code": {
+            "compound_code": "4FWF+26 Centro, Chopinzinho - PR, Brasil",
+            "global_code": "58694FWF+26"
+        },
+        "rating": 4.7,
+        "reference": "ChIJof4Msojv75QRfEplq4dIq78",
+        "reviews": [
+            {
+                "author_name": "Thiago Luiz Domacoski",
+                "author_url": "https://www.google.com/maps/contrib/104984137872438162327/reviews",
+                "language": "pt",
+                "profile_photo_url": "https://lh3.googleusercontent.com/a-/AFdZucrPCWBg-lrgx63Biqu0E0s1nSJuknfRGZSwuYRE8A=s128-c0x00000000-cc-rp-mo-ba4",
+                "rating": 5,
+                "relative_time_description": "uma semana atrás",
+                "text": "Atendimento de qualidade e simpatia. Super recomendo!",
+                "time": 1661230411
+            },
+            {
+                "author_name": "Rosangela Rockenbach",
+                "author_url": "https://www.google.com/maps/contrib/104056715500588199200/reviews",
+                "language": "pt",
+                "profile_photo_url": "https://lh3.googleusercontent.com/a-/AFdZucoM43K2quU1yhAb5nIPXxSCEOPO95IiClS5oBEIuQ=s128-c0x00000000-cc-rp-mo",
+                "rating": 5,
+                "relative_time_description": "4 meses atrás",
+                "text": "Ótimo",
+                "time": 1649472303
+            },
+            {
+                "author_name": "Camélia Bilinski",
+                "author_url": "https://www.google.com/maps/contrib/115617188386871079530/reviews",
+                "profile_photo_url": "https://lh3.googleusercontent.com/a/AItbvmmHUWRi0rQ_k83RIe5uI2pX3dk62eXF1PdKO66I=s128-c0x00000000-cc-rp-mo",
+                "rating": 5,
+                "relative_time_description": "7 meses atrás",
+                "text": "",
+                "time": 1642104256
+            },
+            {
+                "author_name": "Marcia De Lima Filimberti",
+                "author_url": "https://www.google.com/maps/contrib/105881891066589330227/reviews",
+                "profile_photo_url": "https://lh3.googleusercontent.com/a/AItbvmkaeJDqVoyjgwdxmKx81DPtHJG6VJbmlMoaqngn=s128-c0x00000000-cc-rp-mo",
+                "rating": 5,
+                "relative_time_description": "7 meses atrás",
+                "text": "",
+                "time": 1642087409
+            },
+            {
+                "author_name": "Marcia Silva da Cruz",
+                "author_url": "https://www.google.com/maps/contrib/104740632797361318010/reviews",
+                "profile_photo_url": "https://lh3.googleusercontent.com/a-/AFdZucqbnKDXJE4cmiXohMTfvPSsRf35LY66NN51iwxNlu0=s128-c0x00000000-cc-rp-mo",
+                "rating": 3,
+                "relative_time_description": "um ano atrás",
+                "text": "",
+                "time": 1630089235
+            }
+        ],
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ],
+        "url": "https://maps.google.com/?cid=13811212429795084924",
+        "user_ratings_total": 7,
+        "utc_offset": -180,
+        "vicinity": "Rua 14 de Dezembro, 3853 - Centro, Chopinzinho",
+        "website": "https://cfc-chopinzinho.negocio.site/?utm_source=gmb&utm_medium=referral"
+    },
+    "status": "OK"
+}
